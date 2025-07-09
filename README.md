@@ -33,3 +33,13 @@ The decoded result includes minor errors (e.g., "loke" instead of "love") due to
 ## Report
 
 For a full explanation of the algorithm and results, see [`Project_Report.pdf`](./Project_Report.pdf).
+
+## Reproducibility
+
+This project was completed as part of IEMS 315: Stochastic Models at Northwestern University.
+
+Due to course policy, the original data files (`code.txt` and `austenCount.txt`) are not included in this repository.  
+To run the notebook, you will need:
+
+- An encoded message to decode (plaintext `.txt`)
+- A bigram frequency matrix or scoring function 
