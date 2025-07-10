@@ -12,12 +12,6 @@ To decipher a coded message by probabilistically searching for the best characte
 - Evaluated candidate solutions using bigram frequencies from Jane Austen's corpus.
 - Used Metropolis-Hastings acceptance to iteratively converge toward a high-likelihood decoding.
 
-## Tools Used
-
-- Python 3  
-- NumPy  
-- Custom n-gram frequency scoring
-
 ## Output
 
 After 20,000 iterations, the algorithm recovered a coherent English translation of the encoded message — a passage from *Romeo and Juliet*.  
